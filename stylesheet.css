@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+h1 {
+    /* Color */
+    color: red;
+    background-color: yellow;
+
+    /* Width and Height */
+    width: 100%;
+    max-width: 200px;
+    height: 100vh;
+    /* BEST-PRACTICE try not to set height
+    try not to set fixed value for width, messes up on different devices */
+
+
+
+    /* Fonts */
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Inter, Helvetica, sans-serif;
+    /* MULTIPLE fonts needed just incase one font doesn't work, fall back fonts */
+    /* Google fonts to grab new fonts */
+
+
+
+    /* Border */
+    border-width: 4px;
+    border-style: dotted;
+    border-color: aqua;
+    /* there is a shortcut where you can set all three of these values in respective order */
+    border: 10px solid red;
+}
